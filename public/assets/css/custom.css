@@ -1,0 +1,57 @@
+/**
+ *
+ * You can write your CSS code here, DO NOT touch the default JavaScript file
+ * because it will make it harder for you to update.
+ * 
+ */
+
+/*# sourceMappingURL=custom.css.map */
+/* Chrome, Safari, Edge, Opera */
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+
+/* Firefox */
+input[type=number] {
+  -moz-appearance: textfield;
+}
+
+.bg-topnavbase{
+    background-color: #287ee0 !important;
+    box-shadow: 10px 10px;
+}
+
+.bg-sidenavbase{
+    background-color: #0c5fbd !important;
+}
+
+.main-sidebar .sidebar-brand{
+    line-height: 20px;    
+    /*color: rgb(255, 255, 255);*/
+}
+
+.main-sidebar .sidebar-menu li.active a{
+    color: #287ee0;
+}
+
+body.sidebar-mini .main-sidebar .sidebar-menu > li.active > a{
+    background-color: #287ee0;
+}
+
+body:not(.sidebar-mini) .sidebar-style-2 .sidebar-menu > li.active > a:before{
+    background-color: #287ee0;
+}
+
+.main-sidebar .sidebar-menu li ul.dropdown-menu li a:hover{
+    color: #287ee0;
+}
+
+.main-sidebar .sidebar-menu li ul.dropdown-menu li.active > a{
+    color: #287ee0;
+}
+
+.position-exit{
+    left : -10px;
+}
