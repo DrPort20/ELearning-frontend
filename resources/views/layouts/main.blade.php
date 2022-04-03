@@ -21,7 +21,9 @@
                 <h1>{{ $tittle }}</h1>
             </div>
           </section>
+
           @yield('content')
+          
         </div>
         <footer class="main-footer">
           @include('partials.footer')

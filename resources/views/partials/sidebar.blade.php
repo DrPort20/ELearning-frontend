@@ -20,6 +20,7 @@
         <li><a class="nav-link" href="/manajemen-kelas"><i class="fas fa-users-rectangle"></i> <span>Manajemen Kelas</span></a></li>
         
         <li class="menu-header">Menu Guru</li>        
+        <li><a class="nav-link" href="/manajemen-materi"><i class="fas fa-people-group"></i> <span>Data Siswa</span></a></li>
         <li><a class="nav-link" href="/manajemen-materi"><i class="fas fa-book"></i> <span>Manajemen Materi</span></a></li>
         
         <li class="menu-header">Menu Siswa</li>
