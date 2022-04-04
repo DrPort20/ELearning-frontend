@@ -106,7 +106,7 @@
       
                             <div class="form-group col-md-12 col-12">
                                 <label>Alamat</label>
-                                <textarea class="form-control" rows="4" style="height: 100%;" required>Jl. raya tengah atas bawah no.100 rt 01 rw 02, bojong kenyot, bogor</textarea>
+                                <textarea class="form-control" rows="4" style="height: 100%;" required disabled>Jl. raya tengah atas bawah no.100 rt 01 rw 02, bojong kenyot, bogor</textarea>
                             </div>
       
                             <div class="form-group col-md-7 col-12 mt-4">
@@ -117,7 +117,7 @@
                                     <i class="fas fa-at"></i>
                                   </div>
                                 </div>
-                                <input type="email" class="form-control" value="ujang@maman.com">
+                                <input type="email" class="form-control" value="ujang@maman.com" disabled>
                                 <div class="invalid-feedback">
                                 </div>
                               </div>
@@ -131,7 +131,7 @@
                                     <i class="far fa-calendar"></i>
                                   </div>
                                 </div>
-                                <input type="number" class="form-control" value="2022">
+                                <input type="number" class="form-control" value="2022" disabled>
                                 <div class="invalid-feedback">
                                 </div>
                               </div>

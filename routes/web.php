@@ -49,8 +49,14 @@ Route::get('/manajemen-user', function () {
 });
 
 Route::get('/manajemen-kelas', function () {
-    return view('kelas',[
+    return view('manajemenKelas',[
         "tittle" => "Manajemen Kelas"
+    ]);
+});
+
+Route::get('/show-siswa', function () {
+    return view('showsiswa',[
+        "tittle" => "Daftar Siswa"
     ]);
 });
 
@@ -61,7 +67,7 @@ Route::get('/manajemen-materi', function () {
 });
 
 Route::get('/materi-pembelajaran', function () {
-    return view('mapel',[
+    return view('daftarMapel',[
         "tittle" => "Materi Pembelajaran"
     ]);
 });

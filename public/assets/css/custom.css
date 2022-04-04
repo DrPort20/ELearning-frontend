@@ -145,6 +145,21 @@ body:not(.sidebar-mini) .sidebar-style-2 .sidebar-menu > li.active > a:before{
     border-radius: 5px !important;  
 }
 
+.input-group-text, select.form-control:not([size]):not([multiple]), .form-control:not(.form-control-sm):not(.form-control-lg){
+
+}
+
+.bootstrap-select>.dropdown-toggle {
+    height: 40px;
+    margin-top: -9px;
+    margin-left: -14px;
+}
+
+.btn-light, .btn-light.disabled {
+    background-color: #fdfdff;
+    border-color: #e4e6fc;
+}
+
 textarea { 
     resize:none;
 }
