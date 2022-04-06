@@ -6,7 +6,9 @@
     
     @include('modals.addmapel')
     @include('modals.addkelas')
-    @include('modals.addpemmapel') 
+    @include('modals.addpemmapel')
+    @include('modals.editmapel')
+    @include('modals.editkelas')
 
     <!--modals-->
     
@@ -17,7 +19,7 @@
         </div>
         <div class="card-body">
           <ul class="nav nav-tabs" id="myTab2" role="tablist">
-            <li class="nav-item">
+            <li class="nav-item"> 
               <a class="nav-link active" id="mapel-table" data-toggle="tab" href="#mapelTable" role="tab" aria-controls="mapel" aria-selected="true">Mata Pelajaran</a>
             </li>
             <li class="nav-item">

@@ -121,14 +121,14 @@
       </div> 
 
       <div class="form-group col-md-5 col-12 mt-4">
-        <label>Tahun Masuk</label>
+        <label>Kelas</label>
         <div class="input-group">
           <div class="input-group-prepend">
             <div class="input-group-text">
-              <i class="far fa-calendar"></i>
+              <i class="fas fa-chalkboard-user"></i>
             </div>
           </div>
-          <input type="number" class="form-control" value="2022">
+          <input type="text" class="form-control" value="XAP1">
           <div class="invalid-feedback">
           </div>
         </div>

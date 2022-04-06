@@ -18,7 +18,7 @@
       <div class="d-sm-none d-lg-inline-block">Hi, Ujang Maman</div></a>
       <div class="dropdown-menu dropdown-menu-right">
         <div class="dropdown-title">Menu Profil</div>
-        <a href="features-profile.html" class="dropdown-item has-icon">
+        <a href="/profil" class="dropdown-item has-icon">
           <i class="far fa-user"></i> Profil
         </a>
         <div class="dropdown-divider"></div>

@@ -3,27 +3,33 @@
       <table class="table table-striped">
         <tbody><tr>
           <th>No</th>
-          <th>Kelas</th>
-          <th>ID Mapel</th>
+          <th>Judul Materi</th>
           <th>Mata Pelajaran</th>
-          <th>ID Guru</th>
-          <th>Guru</th>
+          <th>Pertemuan</th>
+          <th>Materi</th>
+          <th>Tugas</th>
           <th>Aksi</th>
         </tr>
         <tr>
           <td>1</td>
-          <td>XAP1</td>          
-          <td>2012923822</td>
+          <td>Dasar Aqidah</td>
           <td>Pendidikan Agama</td>
-          <td>2012923822</td>
-          <td>Suranto M.pd</td>
+          <td>1</td>
           <td>
+            <a href="#" class="btn btn-primary"><i class="fas fa-file-arrow-down"></i></a>
+          </td>
+          <td>
+            <a href="#" class="btn btn-warning"><i class="fa-solid fa-cloud-arrow-down"></i></a>
+          </td>
+          <td>
+            <button class="btn btn-success" data-toggle="modal" data-target="#editmateri"><i class="fas fa-pen-to-square"></i></i></button>
             <a href="#" class="btn btn-danger"><i class="fas fa-trash-can"></i></a>
           </td>
         </tr>
 
 
         <!-- buat preview table -->
+        
         
       </tbody></table>
     </div>

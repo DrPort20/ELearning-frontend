@@ -18,7 +18,7 @@
           <td>
             <button class="btn btn-info" data-toggle="modal" data-target="#lihatprofil"><i class="fa-solid fa-eye"></i></button>
             <button class="btn btn-success" data-toggle="modal" data-target="#editProfil"><i class="fas fa-pen-to-square"></i></i></button>
-            <a href="#" class="btn btn-warning"><i class="fa-solid fa-rotate-left"></i></a>
+            <a href="#" class="btn btn-warning"><i class="fa-solid fa-rotate-left"></i></a> <!--reset password-->
             <a href="#" class="btn btn-danger"><i class="fas fa-trash-can"></i></a>
           </td>
         </tr>

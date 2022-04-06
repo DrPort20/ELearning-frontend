@@ -4,9 +4,7 @@
     
     <!--modals-->
     
-    @include('modals.adduser')
     @include('modals.viewprofile')
-    @include('modals.editprofile') 
 
     <!--modals-->
     

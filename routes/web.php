@@ -19,14 +19,8 @@ Route::get('/login', function () {
 });
 
 Route::get('/dashboard-admin', function () {
-    return view('admin', [
+    return view('dashboardAdmin', [
         "tittle" => "Dasboard Admin"
-    ]);
-});
-
-Route::get('/dashboard-guru', function () {
-    return view('guru',[
-        "tittle" => "Dasboard Guru"
     ]);
 });
 
@@ -61,7 +55,7 @@ Route::get('/show-siswa', function () {
 });
 
 Route::get('/manajemen-materi', function () {
-    return view('materi',[
+    return view('manajemenMateri',[
         "tittle" => "Manajemen Materi"
     ]);
 });

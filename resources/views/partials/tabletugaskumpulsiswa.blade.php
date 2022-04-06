@@ -3,20 +3,22 @@
       <table class="table table-striped">
         <tbody><tr>
           <th>No</th>
+          <th>Nama Siswa</th>
+          <th>Mata Pelajaran</th>          
           <th>Kelas</th>
-          <th>ID Mapel</th>
-          <th>Mata Pelajaran</th>
-          <th>ID Guru</th>
-          <th>Guru</th>
+          <th>Tugas Pertemuan</th>
+          <th>File Tugas</th>
           <th>Aksi</th>
         </tr>
         <tr>
           <td>1</td>
-          <td>XAP1</td>          
-          <td>2012923822</td>
+          <td>William Sudibyo</td>
           <td>Pendidikan Agama</td>
-          <td>2012923822</td>
-          <td>Suranto M.pd</td>
+          <td>XAP1</td>
+          <td>1</td>
+          <td>
+            <a href="#" class="btn btn-primary"><i class="fas fa-file-arrow-down"></i></a>
+          </td>
           <td>
             <a href="#" class="btn btn-danger"><i class="fas fa-trash-can"></i></a>
           </td>
@@ -24,6 +26,7 @@
 
 
         <!-- buat preview table -->
+        
         
       </tbody></table>
     </div>

@@ -9,7 +9,7 @@
               <i class="fas fa-id-card"></i>
             </div>
           </div>
-          <input type="number" class="form-control" value="" required>
+          <input type="text" class="form-control" value="XAP1" required>
           <div class="invalid-feedback">
           </div>
         </div>
@@ -20,10 +20,10 @@
         <div class="input-group">
           <div class="input-group-prepend">
             <div class="input-group-text">
-              <i class="fas fa-graduation-cap"></i>
+              <i class="fas fa-book-open"></i>
             </div>
           </div>
-          <input type="text" class="form-control" value="" required>
+          <input type="text" class="form-control" value="X Anak Pemasaran" required>
           <div class="invalid-feedback">
           </div>
         </div>
@@ -37,7 +37,7 @@
               <i class="fas fa-user"></i>
             </div>
           </div>
-          <select name="addWali" class="form-control selectpicker" data-live-search="true">
+          <select name="editWali" class="form-control selectpicker" data-live-search="true">
             <option>--select--</option>
             <option>William S.Pd</option>
             <option>Suranto M.Pd</option>

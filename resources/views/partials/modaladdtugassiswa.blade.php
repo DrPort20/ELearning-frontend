@@ -1,24 +1,18 @@
 <div class="card-body">
     <div class="row">     
-      
       <div class="form-group col-md-12 col-12">
-        <label>Id Kelas</label>
+        <label>Nama Siswa</label>
         <div class="input-group">
           <div class="input-group-prepend">
             <div class="input-group-text">
-              <i class="fas fa-id-card"></i>
+              <i class="fas fa-book"></i>
             </div>
           </div>
-          <select name="addMapelKelas" class="form-control selectpicker" data-live-search="true">
-            <option>--select--</option>
-            <option>XAP1</option>
-            <option>XAP2</option>
-            <option>XAP3</option>
-          </select>
+          <input type="text" class="form-control" value="" required>
           <div class="invalid-feedback">
           </div>
         </div>
-      </div> 
+      </div>   
 
       <div class="form-group col-md-12 col-12">
         <label>Mata Pelajaran</label>
@@ -28,50 +22,55 @@
               <i class="fas fa-book-open"></i>
             </div>
           </div>
-          <select name="addPemMapel" class="form-control selectpicker" data-live-search="true">
-            <option>--select--</option>
-            <option>Agama</option>
-            <option>IPA</option>
-            <option>IPS</option>
+          <select class="form-control" required>
+            <option value="Pendidikan Agama">Pendidikan Agama</option>
+            <option value="Pendidikan Agama 2">Pendidikan Agama 2</option>
           </select>
           <div class="invalid-feedback">
           </div>
         </div>
-      </div>
-
+      </div> 
 
       <div class="form-group col-md-12 col-12">
-        <label>ID Guru</label>
+        <label>Kelas</label>
         <div class="input-group">
           <div class="input-group-prepend">
             <div class="input-group-text">
-              <i class="far fa-id-card"></i>
+              <i class="fas fa-book-open"></i>
             </div>
           </div>
-          <select name="addIDGuruMapel" class="form-control selectpicker" data-live-search="true">
-            <option>--select--</option>
-            <option>382812393213</option>
-            <option>3123123</option>
-            <option>31231233</option>
+          <select class="form-control" required>
+            <option value="XAP1">XAP1</option>
+            <option value="XAP2">XAP2</option>
           </select>
           <div class="invalid-feedback">
           </div>
         </div>
-      </div>       
+      </div> 
 
-      <div class="form-group col-md-12 col-12 pr-2">
-        <label>Guru</label>
+      <div class="form-group col-md-12 col-12">
+        <label>Pertemuan</label>
         <div class="input-group">
           <div class="input-group-prepend">
             <div class="input-group-text">
-              <i class="fas fa-user"></i>
+              <i class="fas fa-calendar-check"></i>
             </div>
           </div>
-          <input type="text" class="form-control" value="" disabled>
+          <input type="text" class="form-control" value="" required>
           <div class="invalid-feedback">
           </div>
         </div>
       </div>   
+
+      <div class="form-group col-md-12 col-12">
+        <label>Tugas</label>
+        <div class="custom-file">
+          <input type="file" class="custom-file-input" id="customFile">
+          <label class="custom-file-label" for="customFile">Masukan Tugas</label>
+        </div>
+        <div class="invalid-feedback">
+        </div>
+      </div>  
     </div>    
 
 </div>                

@@ -10,7 +10,6 @@
       <ul class="sidebar-menu mt-2">
         <li class="menu-header">Dashboard</li>
         <li><a class="nav-link" href="/dashboard-admin"><i class="fas fa-gauge-high"></i></i> <span>Dashboard Admin</span></a></li>
-        <li><a class="nav-link" href="/dashboard-guru"><i class="fas fa-gauge-simple-high"></i></i> <span>Dashboard Guru</span></a></li>
 
         <li class="menu-header">Profil</li>
         <li class="active"><a class="nav-link" href="/profil"><i class="fas fa-user"></i> <span>Profil</span></a></li>

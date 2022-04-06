@@ -6,7 +6,6 @@
           <th>Kelas</th>
           <th>ID Mapel</th>
           <th>Mata Pelajaran</th>
-          <th>ID Guru</th>
           <th>Guru</th>
           <th>Aksi</th>
         </tr>
@@ -15,10 +14,9 @@
           <td>XAP1</td>          
           <td>2012923822</td>
           <td>Pendidikan Agama</td>
-          <td>2012923822</td>
           <td>Suranto M.pd</td>
           <td>
-            <a href="#" class="btn btn-danger"><i class="fas fa-trash-can"></i></a>
+            <button class="btn btn-info" data-toggle="modal" data-target="#daftarmapel"><i class="fa-solid fa-eye"></i></button>
           </td>
         </tr>
 

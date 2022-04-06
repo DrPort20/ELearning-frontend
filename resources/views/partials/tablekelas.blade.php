@@ -14,7 +14,7 @@
           <td>X Anak Pemasaran 1</td>
           <td>William S.pd</td>
           <td>
-            <button class="btn btn-success" data-toggle="modal" data-target="#editProfil"><i class="fas fa-pen-to-square"></i></i></button>
+            <button class="btn btn-success" data-toggle="modal" data-target="#editkelas"><i class="fas fa-pen-to-square"></i></i></button>
             <a href="#" class="btn btn-danger"><i class="fas fa-trash-can"></i></a>
           </td>
         </tr>

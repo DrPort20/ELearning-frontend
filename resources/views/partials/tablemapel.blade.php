@@ -5,16 +5,14 @@
           <th>No</th>
           <th>ID</th>
           <th>Mata Pelajaran</th>
-          <th>Guru</th>
           <th>Aksi</th>
         </tr>
         <tr>
           <td>1</td>
           <td>23827937289</td>
           <td>Pendidikan Agama</td>
-          <td>Suranto. M.pd</td>
           <td>
-            <button class="btn btn-success" data-toggle="modal" data-target="#editProfil"><i class="fas fa-pen-to-square"></i></i></button>
+            <button class="btn btn-success" data-toggle="modal" data-target="#editmapel"><i class="fas fa-pen-to-square"></i></i></button>
             <a href="#" class="btn btn-danger"><i class="fas fa-trash-can"></i></a>
           </td>
         </tr>
