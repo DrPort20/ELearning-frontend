@@ -1,0 +1,165 @@
+/**
+ *
+ * You can write your CSS code here, DO NOT touch the default JavaScript file
+ * because it will make it harder for you to update.
+ * 
+ */
+
+/*# sourceMappingURL=custom.css.map */
+/* Chrome, Safari, Edge, Opera */
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+
+/* Firefox */
+input[type=number] {
+  -moz-appearance: textfield;
+}
+
+/*Hide Arrow from select*/
+select {
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    text-indent: 1px;
+    text-overflow: '';
+}
+
+/* Hide Calendar Icon In Chrome */
+input[type="date"]::-webkit-inner-spin-button,
+input[type="date"]::-webkit-calendar-picker-indicator {
+    display: none;
+    -webkit-appearance: none;
+}
+
+.bg-topnavbase{
+    background-color: #287ee0 !important;
+    box-shadow: 10px 10px;
+}
+
+.bg-sidenavbase{
+    background-color: #0c5fbd !important;
+}
+
+.main-sidebar .sidebar-brand{
+    line-height: 20px;    
+    /*color: rgb(255, 255, 255);*/
+}
+
+.main-sidebar .sidebar-menu li.active a{
+    color: #287ee0;
+}
+
+body.sidebar-mini .main-sidebar .sidebar-menu > li.active > a{
+    background-color: #287ee0;
+}
+
+body:not(.sidebar-mini) .sidebar-style-2 .sidebar-menu > li.active > a:before{
+    background-color: #287ee0;
+}
+
+.main-sidebar .sidebar-menu li ul.dropdown-menu li a:hover{
+    color: #287ee0;
+}
+
+.main-sidebar .sidebar-menu li ul.dropdown-menu li.active > a{
+    color: #287ee0;
+}
+
+.position-exit{
+    left : -10px;
+}
+
+.card.card-primary{
+    border-top: 2px solid #287ee0;
+}
+
+.card .card-header h4 {
+    color : #287ee0;
+}
+
+.image-profile{
+    width: 110%;
+    height: 100%;
+    max-width: 230px;
+    max-height: 230px;
+}
+
+.card{
+    box-shadow: 0 4px 8px rgb(214 214 214);
+}
+
+.card .card-body{
+    padding-top: 10px;
+}
+
+.btn-match{
+    background-color: #287ee0 !important;
+    color: white;
+}
+
+.bg-match{
+    background-color: #287ee0 !important;
+    color: white;
+}
+
+.tittle-color{
+    color:  #287ee0 !important;
+}
+
+.page-item .page-link{
+    color:  #287ee0;
+}
+
+.page-link:hover{
+    background-color: #287ee0;
+    color: white;
+}
+
+.page-item.active .page-link{
+    background-color: #287ee0 !important;
+}
+
+.nav-tabs .nav-item .nav-link{
+    color: #287ee0;
+}
+
+.card .card-header h4 + .card-header-form .input-group .form-control{
+    border-radius: 5px 0 0 5px!important;
+}
+
+.card .card-header h4 + .card-header-action .input-group .form-control + .input-group-btn .btn, .card .card-header h4 + .card-header-form .input-group .form-control + .input-group-btn .btn{
+    border-radius: 0 5px 5px 0 !important;    
+}
+
+.btn-primary, .btn-primary.disabled{
+    background-color: #287ee0;
+}
+
+.card .card-header .btn:not(.note-btn){
+    border-radius: 5px !important;  
+}
+
+.card .card-header h4 + .card-header-action .btn, .card .card-header h4 + .card-header-form .btn{
+    border-radius: 5px !important;  
+}
+
+.input-group-text, select.form-control:not([size]):not([multiple]), .form-control:not(.form-control-sm):not(.form-control-lg){
+
+}
+
+.bootstrap-select>.dropdown-toggle {
+    height: 40px;
+    margin-top: -9px;
+    margin-left: -14px;
+}
+
+.btn-light, .btn-light.disabled {
+    background-color: #fdfdff;
+    border-color: #e4e6fc;
+}
+
+textarea { 
+    resize:none;
+}

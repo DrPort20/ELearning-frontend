@@ -1,7 +1,6 @@
 <?php
 
 use Illuminate\Support\Facades\Route;
-use App\Http\Controllers\TestController;
 
 /*
 |--------------------------------------------------------------------------
@@ -13,22 +12,62 @@ use App\Http\Controllers\TestController;
 | contains the "web" middleware group. Now create something great!
 |
 */
-
 Route::get('/login', function () {
-    return view('login');
-    
+    return view('login', [
+        "tittle => Login"
+    ]);
 });
 
-Route::get('/logout', function () {
-    return view('login');
-    
+Route::get('/dashboard-admin', function () {
+    return view('dashboardAdmin', [
+        "tittle" => "Dasboard Admin"
+    ]);
 });
 
-Route::get('/', function() {
-    return view('dashboard.index');
+Route::get('/', function () {
+    return view('profil',[
+        "tittle" => "Profil"
+    ]);
 });
 
-Route::get('/profile', function() {
-    return view('profile');
+Route::get('/profil', function () {
+    return view('profil',[
+        "tittle" => "Profil"
+    ]);
 });
 
+Route::get('/manajemen-user', function () {
+    return view('user',[
+        "tittle" => "Manajemen User"
+    ]);
+});
+
+Route::get('/manajemen-kelas', function () {
+    return view('manajemenKelas',[
+        "tittle" => "Manajemen Kelas"
+    ]);
+});
+
+Route::get('/show-siswa', function () {
+    return view('showsiswa',[
+        "tittle" => "Daftar Siswa"
+    ]);
+});
+
+Route::get('/manajemen-materi', function () {
+    return view('manajemenMateri',[
+        "tittle" => "Manajemen Materi"
+    ]);
+});
+
+Route::get('/materi-pembelajaran', function () {
+    return view('daftarMapel',[
+        "tittle" => "Materi Pembelajaran"
+    ]);
+});
+
+Route::get('/pengumpulan-tugas', function () {
+    return view('tugas',[
+        "tittle" => "Pengumpulan Tugas"
+    ]);
+});
