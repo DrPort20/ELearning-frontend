@@ -8,7 +8,7 @@
     <!-- navbar search -->
     <div class="search-element">
       <ul class="navbar-nav mr-3">
-        <li class="text-light font-weight-bold">E-Learning  SMK Dharma Budhi Bhakti Plus</li>
+        <li class="text-light font-weight-bold">E-Learning  SMK KEREN ABIS</li>
       </ul>
     </div>
   </form>

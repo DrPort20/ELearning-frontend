@@ -2,10 +2,10 @@
 <div class="main-sidebar sidebar-style-2">
   <aside id="sidebar-wrapper">
       <div class="sidebar-brand mt-3">
-        <a href="/"><img src="{{ asset('assets/img/logo.png')}}" alt="" width="25%"><br><br>SMK DHARMA BUDHI <br>BHAKTI PLUS</a>
+        <a href="/"><img src="" alt="" width="25%"><br><br>SMK KEREN ABIS <br>KEREN BGT</a>
       </div>
       <div class="sidebar-brand mt-3 sidebar-brand-sm">
-        <a href="/"><img src="{{ asset('assets/img/logo.png')}}" alt="" width="50%"></a>
+        <a href="/"><img src="  " alt="" width="50%">SMK KEREN ABIS</a>
       </div>
       <ul class="sidebar-menu mt-2">
         <li class="menu-header">Dashboard</li>
