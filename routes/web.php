@@ -67,7 +67,7 @@ Route::get('/materi-pembelajaran', function () {
 });
 
 Route::get('/pengumpulan-tugas', function () {
-    return view('tugas',[
+    return view('tuga   s',[
         "tittle" => "Pengumpulan Tugas"
     ]);
 });
